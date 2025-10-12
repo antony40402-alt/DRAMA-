@@ -1,0 +1,27 @@
+name: fyjh_lines_trainer
+description: FYJH 劇本台詞練習器（Flutter / iOS 錄音 + TTS，內建完整劇本）
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.3
+  record: ^5.0.5
+  just_audio: ^0.9.36
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/script.json
